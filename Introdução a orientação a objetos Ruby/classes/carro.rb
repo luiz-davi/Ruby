@@ -1,7 +1,9 @@
 class Carro
-    attr_accessor :nome
+    attr_accessor :modelo
+    attr_accessor :dono
 
-    def initialize (nome)
-        @nome = nome
+    def initialize (modelo, dono)
+        @modelo = modelo
+        @dono = dono
     end
 end
